@@ -14,7 +14,7 @@ test:
 	${EASK} install-deps --dev
 	${MAKE} compile
 	${MAKE} unit
-        ${EASK} lint package nim-*.el
+	${EASK} lint package nim-*.el
 	${MAKE} clean-elc
 
 compile:
